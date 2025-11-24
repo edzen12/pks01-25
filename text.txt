@@ -1,0 +1,7 @@
+HTML - HyperText Markup Language  язык гипертекствой разметки 
+CSS Cascading Style Sheets (CSS) — это язык правил таблиц стилей
+
+
+HTML - все есть теги:
+    парные теги
+    одинарные теги

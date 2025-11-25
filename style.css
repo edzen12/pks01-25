@@ -3,6 +3,9 @@ body{
   margin: 0;
   padding: 0;
 }
+li{
+    list-style-type: none;
+}
 a{
     text-decoration: none;
 }  
@@ -116,4 +119,31 @@ height: 800px;
 }
 .regions img{
     width: 400px;
+}
+.media{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.media a{
+    font-size: 30px;
+}
+.photo img{
+    width: 400px;
+}
+.photo ul{
+    display: flex;
+}
+.contacts{
+    margin-top: 100px;
+    text-align: center;
+}
+.contacts input{
+    font-size: 25px;
+    padding: 5px;
+}
+.contacts button{
+    font-size: 25px;
+    background-color: #5bc797;
+    color: white;
+    padding: 5px;
 }

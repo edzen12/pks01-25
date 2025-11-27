@@ -1,5 +1,7 @@
 body{
     margin: 0px;
+    background-color: #edf1f2;
+     font-family: "Inter", sans-serif;
 }
 a{
     text-decoration: none;
@@ -12,8 +14,9 @@ header{
 }
 /* top menu */
 .topMenu{
-    display: flex;
-    margin-top: 10px;
+    align-items: center;
+    display: flex;  
+    justify-content: center;
 }
 .logo img{
     width: 150px;
@@ -26,6 +29,7 @@ header{
     color: #fff;
 }
 .menu ul{
+    margin-left: 80px;
     display: flex;
 }
 .menu li{
@@ -33,14 +37,16 @@ header{
     padding-bottom: 10px;
     margin-left: 15px;
     margin-right: 15px; 
-    font-size: 20px;
+    font-size: 14px;
+    font-weight: 600;
 }
 .menu input{
     font-size: 20px;
 }
 /* button menu */
 .blueButton{
-    background-color: rgb(30, 211, 150);
+    margin-left: 30px;
+    background-color: rgb(50, 97, 224);
 }
 .redButton{
     background-color: rgb(228, 74, 36);
@@ -56,8 +62,16 @@ header{
 .topMenuLi ul{
     display: flex;
 }
+.topMenuLi a{
+color: rgb(131, 129, 129);
+}
 .topMenuLi li{
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 20px;
+    font-size: 14px;
+    font-weight: 700;
+}
+/* banner */
+.banner {
+    text-align: center;
 }

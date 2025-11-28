@@ -115,3 +115,33 @@ color: rgb(131, 129, 129);
 .right {
     right: 20px;
 }
+/* card */
+.CardBlock {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.cartList{
+    width: 220px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0px 0px 0px 2px rgb(163 160 160)
+}
+.textCard img {
+    width: 20px;
+} 
+.textCard ul{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.orangeSales{
+    background-color: orange;
+    color: #fff;
+    padding: 4px;
+}

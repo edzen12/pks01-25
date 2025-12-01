@@ -1,0 +1,30 @@
+.garant h1{
+    text-align: center;
+}
+.containerGarant{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.garant svg{
+    width: 40px;
+    height: 40px;
+}
+.cardGarant{
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.garant svg{
+    width: 50px;
+    height: 50px;
+} 
+.redGarant{
+    color: #EA3323;
+} 
+.blueGarant{
+    color: #53a3f8;
+}
+.greenGarant{
+    color: #449c2a;
+}

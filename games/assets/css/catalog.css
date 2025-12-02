@@ -2,7 +2,7 @@
     margin-left: 100px;
     margin-right: 100px;
 }
-.catalogBig input{
+.catalogBigInput{
     width: 100%;
     height: 30px;
     text-transform: uppercase;
@@ -33,6 +33,72 @@
 }
 /* block game */
 .blockGame{
+    margin-top: 20px;
     display: flex;
     align-items: center;
+    justify-content: space-around;
+} 
+.skidkaGameCart{
+    background: red;
+    color: white;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.buyGameCart{
+    background: #dadada;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid gray;
+}
+.buyGameCart:hover{
+    background: rgb(188, 255, 179);
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid rgb(179, 255, 167);
+}
+.blockGamePriceCart{
+    text-align: center;
+}
+.buyGameCart a{
+    color: black;
+}
+.buyGameCart a:hover{
+    color: rgb(31, 255, 31);
+}
+.greenSpan{   
+    color: rgb(61, 176, 61);
+}
+.blockGameText p{
+    font-size: 13px;
+}
+.catalogTextMiniSteamIcons img{
+    width: 16px;
+}
+.catalogTextMiniSteamIcons a{
+font-size: 13px;
+color: gray;
+} 
+.catalogTextMiniSteamIcons{
+    color: gray;
+}
+/*  */
+.pricePercent30 input{
+    width: 120px;
+}
+.pricePercent30{
+    display: flex;
+    align-items: center;
+}
+.Percent30 ul{
+    margin: 0;
+    padding: 0;
+}
+.pricePercent30 span{
+    margin-left: 2px;
+    margin-right: 2px;
+} 
+.genreBig span{
+    margin-left: 150px;
 }

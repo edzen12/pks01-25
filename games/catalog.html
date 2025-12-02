@@ -53,21 +53,45 @@
 <section>
 
 
-
-
-
-
-
-
     <!-- catalog -->
     <div class="catalogBig">
         <h3>Найдено 20000 результатов</h3>
-        <input type="text" placeholder="Поиск"> 
+        <input class="catalogBigInput" type="text" placeholder="Поиск"> 
         <div class="catalog">
             <!-- 30% -->
             <div class="Percent30">
                 <p>Фильтры 0 применено</p>
                 <hr>
+                <p>Цена</p>
+                <ul class="pricePercent30">
+                    <span>от</span><li> <input type="text" class="catalogBigInput" placeholder="59"></li>
+                    <span>до</span><li> <input type="text" class="catalogBigInput" placeholder="4899"> </li>
+                    <span>сом</span>
+                </ul>
+                <hr>
+                <h3>Жанры</h3>
+                <div class="genreBig"> 
+                    <p>
+                        <input class="genre" type="checkbox"/> 
+                        <label > Экшен</label>
+                        <span>75</span>
+                    </p>
+                    <p>
+                        <input class="genre" type="checkbox"/> 
+                        <label > Приключение</label>
+                        <span>75</span>
+                    </p>
+                    <p>
+                        <input class="genre" type="checkbox"/> 
+                        <label > Стратегия</label>
+                        <span>75</span>
+                    </p>
+                    <p>
+                        <input class="genre" type="checkbox"/> 
+                        <label > Симулятор</label>
+                        <span>75</span>
+                    </p> 
+                </div>
             </div>
             <!-- 70% -->
             <div class="Percent70">
@@ -100,18 +124,140 @@
                 <!-- block game -->
                 <div class="blockGame">
                     <div class="blockGameImage">
-                        <img width="250px" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/292030/81150f1fa821d7093c9b99e1df16a93272f6c2f7/capsule_616x353_russian.jpg?t=1761131270" alt="">
+                        <img width="220px" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/292030/81150f1fa821d7093c9b99e1df16a93272f6c2f7/capsule_616x353_russian.jpg?t=1761131270" alt="">
                     </div>
                     <div class="blockGameText">
                         <h3>The Witcher 3: Wild Hunt - Complete Edition (STEAM)</h3>
-                        <p>Все обзоры игры: Крайне положительные</p>
+                        <p>Все обзоры игры: <span class="greenSpan">Крайне положительные</span></p>
                         <p>ДАТА ВЫХОДА: 18 мая 2015</p>
+                        <br>
+                        <ul class="catalogTextMiniSteamIcons">
+                            <li><img src="assets/img/2111630.png" alt=""></li> |
+                            <li><img src="assets/img/wind.png" alt=""></li> |
+                            <li><a href="">Открытый мир, Ролевая игра, Глубокий сюжет, Атмосферная</a></li>
+                        </ul>
                     </div>
                     <div class="blockGamePriceCart">
-                        <p>559 р</p>
+                        <b class="skidkaGameCart">-50%</b>
+                        <b>559 р</b>
+                        <p class="buyGameCart">
+                            <svg style="margin-bottom: -5px;" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#666666"><path d="M440-600v-120H320v-80h120v-120h80v120h120v80H520v120h-80ZM280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM40-800v-80h131l170 360h280l156-280h91L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68.5-39t-1.5-79l54-98-144-304H40Z"/></svg>
+                            <a href="#">Купить сейчас</a>
+                        </p>
                     </div>
                 </div>
+                <hr>
                 <!-- block game -->
+                <!-- block game -->
+                <div class="blockGame">
+                    <div class="blockGameImage">
+                        <img width="220px" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/292030/81150f1fa821d7093c9b99e1df16a93272f6c2f7/capsule_616x353_russian.jpg?t=1761131270" alt="">
+                    </div>
+                    <div class="blockGameText">
+                        <h3>The Witcher 3: Wild Hunt - Complete Edition (STEAM)</h3>
+                        <p>Все обзоры игры: <span class="greenSpan">Крайне положительные</span></p>
+                        <p>ДАТА ВЫХОДА: 18 мая 2015</p>
+                        <br>
+                        <ul class="catalogTextMiniSteamIcons">
+                            <li><img src="assets/img/2111630.png" alt=""></li> |
+                            <li><img src="assets/img/wind.png" alt=""></li> |
+                            <li><a href="">Открытый мир, Ролевая игра, Глубокий сюжет, Атмосферная</a></li>
+                        </ul>
+                    </div>
+                    <div class="blockGamePriceCart">
+                        <b class="skidkaGameCart">-50%</b>
+                        <b>559 р</b>
+                        <p class="buyGameCart">
+                            <svg style="margin-bottom: -5px;" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#666666"><path d="M440-600v-120H320v-80h120v-120h80v120h120v80H520v120h-80ZM280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM40-800v-80h131l170 360h280l156-280h91L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68.5-39t-1.5-79l54-98-144-304H40Z"/></svg>
+                            <a href="#">Купить сейчас</a>
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <!-- block game -->
+                <!-- block game -->
+                <div class="blockGame">
+                    <div class="blockGameImage">
+                        <img width="220px" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/292030/81150f1fa821d7093c9b99e1df16a93272f6c2f7/capsule_616x353_russian.jpg?t=1761131270" alt="">
+                    </div>
+                    <div class="blockGameText">
+                        <h3>The Witcher 3: Wild Hunt - Complete Edition (STEAM)</h3>
+                        <p>Все обзоры игры: <span class="greenSpan">Крайне положительные</span></p>
+                        <p>ДАТА ВЫХОДА: 18 мая 2015</p>
+                        <br>
+                        <ul class="catalogTextMiniSteamIcons">
+                            <li><img src="assets/img/2111630.png" alt=""></li> |
+                            <li><img src="assets/img/wind.png" alt=""></li> |
+                            <li><a href="">Открытый мир, Ролевая игра, Глубокий сюжет, Атмосферная</a></li>
+                        </ul>
+                    </div>
+                    <div class="blockGamePriceCart">
+                        <b class="skidkaGameCart">-50%</b>
+                        <b>559 р</b>
+                        <p class="buyGameCart">
+                            <svg style="margin-bottom: -5px;" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#666666"><path d="M440-600v-120H320v-80h120v-120h80v120h120v80H520v120h-80ZM280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM40-800v-80h131l170 360h280l156-280h91L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68.5-39t-1.5-79l54-98-144-304H40Z"/></svg>
+                            <a href="#">Купить сейчас</a>
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <!-- block game -->
+                 <!-- block game -->
+                <div class="blockGame">
+                    <div class="blockGameImage">
+                        <img width="220px" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/292030/81150f1fa821d7093c9b99e1df16a93272f6c2f7/capsule_616x353_russian.jpg?t=1761131270" alt="">
+                    </div>
+                    <div class="blockGameText">
+                        <h3>The Witcher 3: Wild Hunt - Complete Edition (STEAM)</h3>
+                        <p>Все обзоры игры: <span class="greenSpan">Крайне положительные</span></p>
+                        <p>ДАТА ВЫХОДА: 18 мая 2015</p>
+                        <br>
+                        <ul class="catalogTextMiniSteamIcons">
+                            <li><img src="assets/img/2111630.png" alt=""></li> |
+                            <li><img src="assets/img/wind.png" alt=""></li> |
+                            <li><a href="">Открытый мир, Ролевая игра, Глубокий сюжет, Атмосферная</a></li>
+                        </ul>
+                    </div>
+                    <div class="blockGamePriceCart">
+                        <b class="skidkaGameCart">-50%</b>
+                        <b>559 р</b>
+                        <p class="buyGameCart">
+                            <svg style="margin-bottom: -5px;" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#666666"><path d="M440-600v-120H320v-80h120v-120h80v120h120v80H520v120h-80ZM280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM40-800v-80h131l170 360h280l156-280h91L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68.5-39t-1.5-79l54-98-144-304H40Z"/></svg>
+                            <a href="#">Купить сейчас</a>
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <!-- block game -->
+                 
+                <!-- block game -->
+                <div class="blockGame">
+                    <div class="blockGameImage">
+                        <img width="220px" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/292030/81150f1fa821d7093c9b99e1df16a93272f6c2f7/capsule_616x353_russian.jpg?t=1761131270" alt="">
+                    </div>
+                    <div class="blockGameText">
+                        <h3>The Witcher 3: Wild Hunt - Complete Edition (STEAM)</h3>
+                        <p>Все обзоры игры: <span class="greenSpan">Крайне положительные</span></p>
+                        <p>ДАТА ВЫХОДА: 18 мая 2015</p>
+                        <br>
+                        <ul class="catalogTextMiniSteamIcons">
+                            <li><img src="assets/img/2111630.png" alt=""></li> |
+                            <li><img src="assets/img/wind.png" alt=""></li> |
+                            <li><a href="">Открытый мир, Ролевая игра, Глубокий сюжет, Атмосферная</a></li>
+                        </ul>
+                    </div>
+                    <div class="blockGamePriceCart">
+                        <b class="skidkaGameCart">-50%</b>
+                        <b>559 р</b>
+                        <p class="buyGameCart">
+                            <svg style="margin-bottom: -5px;" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#666666"><path d="M440-600v-120H320v-80h120v-120h80v120h120v80H520v120h-80ZM280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM40-800v-80h131l170 360h280l156-280h91L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68.5-39t-1.5-79l54-98-144-304H40Z"/></svg>
+                            <a href="#">Купить сейчас</a>
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <!-- block game -->
+                 
             </div>
             <!--  -->
         </div>

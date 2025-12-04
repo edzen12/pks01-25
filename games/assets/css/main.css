@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     background-color: #efefef;
-    font-family: "Inter", sans-serif;
+    font-family: "Science Gothic", sans-serif;
 }
 a{
     text-decoration: none;
@@ -37,11 +37,18 @@ header{
     padding-bottom: 10px;
     margin-left: 15px;
     margin-right: 15px; 
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
 }
+.menu{
+    display: flex;
+    align-items: center ;
+}
 .menu input{
-    font-size: 20px;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 400px;
 }
 /* button menu */
 .blueButton{

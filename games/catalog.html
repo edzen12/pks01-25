@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/css/catalog.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 <!--  -->
@@ -41,12 +41,11 @@
             <li><a href="#">Категории</a></li>
             <li><a href="#" style="color: aqua;">Бесплатные игры</a></li>
             <li><a href="#" style="color: orange;">Пополнить steam</a></li>
-            <li>
-                <form>
+            
+        </ul>
+        <form>
                     <input type="text" placeholder="Поиск по магазину">
                 </form>
-            </li>
-        </ul>
     </div>
 </header>
 <!--  -->
@@ -70,28 +69,61 @@
                 </ul>
                 <hr>
                 <h3>Жанры</h3>
+                <!-- line genre input -->
                 <div class="genreBig"> 
-                    <p>
+                    <div class="checkboxInputGenre">
                         <input class="genre" type="checkbox"/> 
                         <label > Экшен</label>
+                    </div>
+                    <div class="checkboxQuantityGenre" >
                         <span>75</span>
-                    </p>
-                    <p>
-                        <input class="genre" type="checkbox"/> 
-                        <label > Приключение</label>
-                        <span>75</span>
-                    </p>
-                    <p>
-                        <input class="genre" type="checkbox"/> 
-                        <label > Стратегия</label>
-                        <span>75</span>
-                    </p>
-                    <p>
-                        <input class="genre" type="checkbox"/> 
-                        <label > Симулятор</label>
-                        <span>75</span>
-                    </p> 
+                    </div>     
                 </div>
+                <!-- line genre input -->
+                  <!-- line genre input -->
+                <div class="genreBig"> 
+                    <div class="checkboxInputGenre">
+                        <input class="genre" type="checkbox"/> 
+                        <label > Экшен</label>
+                    </div>
+                    <div class="checkboxQuantityGenre" >
+                        <span>75</span>
+                    </div>     
+                </div>
+                <!-- line genre input -->
+                  <!-- line genre input -->
+                <div class="genreBig"> 
+                    <div class="checkboxInputGenre">
+                        <input class="genre" type="checkbox"/> 
+                        <label > Экшен</label>
+                    </div>
+                    <div class="checkboxQuantityGenre" >
+                        <span>75</span>
+                    </div>     
+                </div>
+                <!-- line genre input -->
+                  <!-- line genre input -->
+                <div class="genreBig"> 
+                    <div class="checkboxInputGenre">
+                        <input class="genre" type="checkbox"/> 
+                        <label > Против игроков (общий/разделённый экран)</label>
+                    </div>
+                    <div class="checkboxQuantityGenre" >
+                        <span>1344</span>
+                    </div>     
+                </div>
+                <!-- line genre input -->
+                  <!-- line genre input -->
+                <div class="genreBig"> 
+                    <div class="checkboxInputGenre">
+                        <input class="genre" type="checkbox"/> 
+                        <label > Экшен</label>
+                    </div>
+                    <div class="checkboxQuantityGenre" >
+                        <span>75</span>
+                    </div>     
+                </div>
+                <!-- line genre input -->
             </div>
             <!-- 70% -->
             <div class="Percent70">
@@ -101,30 +133,30 @@
                         <li><a href="">Все</a></li>
                         <li><a href="">Специальные предложения</a></li>
                         <li><a href="">Акции</a></li>
-                    </ul>
-                    <p>
-                        Вид 
+                        <li>
+                            Вид 
                         <select name="select"> 
                             <option value="value1"selected>Подробный</option>
                             <option value="value2" >Краткий</option> 
                         </select>
-                    </p>
-                    <p>
-                        Сортировать по: 
+                        </li>
+                        <li>Сортировать по: 
                         <select name="select"> 
                             <option value="value1"selected>Популярности</option>
                             <option value="value2" >Названию A-Z</option>  
                             <option value="value2" >Цене, дешевые</option>  
                             <option value="value2" >Цене, дорогие</option>  
                             <option value="value2" >Лидеры продаж</option>  
-                        </select>
-                    </p>
+                        </select></li>
+                    </ul> 
                 </div>
+                
                 <!-- menu end-->
                 <!-- block game -->
                 <div class="blockGame">
                     <div class="blockGameImage">
-                        <img width="220px" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/292030/81150f1fa821d7093c9b99e1df16a93272f6c2f7/capsule_616x353_russian.jpg?t=1761131270" alt="">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/292030/81150f1fa821d7093c9b99e1df16a93272f6c2f7/capsule_616x353_russian.jpg?t=1761131270" alt="">
+                        <div class="overlayText">Акция до 11.12</div>
                     </div>
                     <div class="blockGameText">
                         <h3>The Witcher 3: Wild Hunt - Complete Edition (STEAM)</h3>
@@ -152,6 +184,7 @@
                 <div class="blockGame">
                     <div class="blockGameImage">
                         <img width="220px" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/292030/81150f1fa821d7093c9b99e1df16a93272f6c2f7/capsule_616x353_russian.jpg?t=1761131270" alt="">
+                        <div class="overlayText">Акция до 11.12</div>
                     </div>
                     <div class="blockGameText">
                         <h3>The Witcher 3: Wild Hunt - Complete Edition (STEAM)</h3>
@@ -179,6 +212,7 @@
                 <div class="blockGame">
                     <div class="blockGameImage">
                         <img width="220px" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/292030/81150f1fa821d7093c9b99e1df16a93272f6c2f7/capsule_616x353_russian.jpg?t=1761131270" alt="">
+                        <div class="overlayText">Акция до 11.12</div>
                     </div>
                     <div class="blockGameText">
                         <h3>The Witcher 3: Wild Hunt - Complete Edition (STEAM)</h3>
@@ -201,75 +235,12 @@
                     </div>
                 </div>
                 <hr>
-                <!-- block game -->
-                 <!-- block game -->
-                <div class="blockGame">
-                    <div class="blockGameImage">
-                        <img width="220px" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/292030/81150f1fa821d7093c9b99e1df16a93272f6c2f7/capsule_616x353_russian.jpg?t=1761131270" alt="">
-                    </div>
-                    <div class="blockGameText">
-                        <h3>The Witcher 3: Wild Hunt - Complete Edition (STEAM)</h3>
-                        <p>Все обзоры игры: <span class="greenSpan">Крайне положительные</span></p>
-                        <p>ДАТА ВЫХОДА: 18 мая 2015</p>
-                        <br>
-                        <ul class="catalogTextMiniSteamIcons">
-                            <li><img src="assets/img/2111630.png" alt=""></li> |
-                            <li><img src="assets/img/wind.png" alt=""></li> |
-                            <li><a href="">Открытый мир, Ролевая игра, Глубокий сюжет, Атмосферная</a></li>
-                        </ul>
-                    </div>
-                    <div class="blockGamePriceCart">
-                        <b class="skidkaGameCart">-50%</b>
-                        <b>559 р</b>
-                        <p class="buyGameCart">
-                            <svg style="margin-bottom: -5px;" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#666666"><path d="M440-600v-120H320v-80h120v-120h80v120h120v80H520v120h-80ZM280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM40-800v-80h131l170 360h280l156-280h91L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68.5-39t-1.5-79l54-98-144-304H40Z"/></svg>
-                            <a href="#">Купить сейчас</a>
-                        </p>
-                    </div>
-                </div>
-                <hr>
-                <!-- block game -->
-                 
-                <!-- block game -->
-                <div class="blockGame">
-                    <div class="blockGameImage">
-                        <img width="220px" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/292030/81150f1fa821d7093c9b99e1df16a93272f6c2f7/capsule_616x353_russian.jpg?t=1761131270" alt="">
-                    </div>
-                    <div class="blockGameText">
-                        <h3>The Witcher 3: Wild Hunt - Complete Edition (STEAM)</h3>
-                        <p>Все обзоры игры: <span class="greenSpan">Крайне положительные</span></p>
-                        <p>ДАТА ВЫХОДА: 18 мая 2015</p>
-                        <br>
-                        <ul class="catalogTextMiniSteamIcons">
-                            <li><img src="assets/img/2111630.png" alt=""></li> |
-                            <li><img src="assets/img/wind.png" alt=""></li> |
-                            <li><a href="">Открытый мир, Ролевая игра, Глубокий сюжет, Атмосферная</a></li>
-                        </ul>
-                    </div>
-                    <div class="blockGamePriceCart">
-                        <b class="skidkaGameCart">-50%</b>
-                        <b>559 р</b>
-                        <p class="buyGameCart">
-                            <svg style="margin-bottom: -5px;" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#666666"><path d="M440-600v-120H320v-80h120v-120h80v120h120v80H520v120h-80ZM280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM40-800v-80h131l170 360h280l156-280h91L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68.5-39t-1.5-79l54-98-144-304H40Z"/></svg>
-                            <a href="#">Купить сейчас</a>
-                        </p>
-                    </div>
-                </div>
-                <hr>
-                <!-- block game -->
-                 
+                <!-- block game -->  
             </div>
             <!--  -->
         </div>
     </div>
-    <!-- catalog -->
-
-
-
-
-
-
-
+    <!-- catalog --> 
 
 </section>
 <!--  -->

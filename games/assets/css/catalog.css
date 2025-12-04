@@ -18,6 +18,9 @@
     justify-content: space-around;
     align-items: center;
 }
+.menuPercent a{
+    color: rgb(106, 105, 105);
+}
 .Percent30{
     width: 25%;
 }
@@ -25,11 +28,14 @@
     width: 75%;
 }
 .Percent70 ul{
+    padding: 0;
     display: flex
 }
-.Percent70 li{
-    margin-left: 10px;
-    margin-right: 10px;
+.Percent70 li{ 
+    margin-right: 30px;
+}
+.catalogTextMiniSteamIcons li{
+    margin-right: 5px; 
 }
 /* block game */
 .blockGame{
@@ -61,8 +67,12 @@
 .blockGamePriceCart{
     text-align: center;
 }
+.blockGamePriceCart b{
+    font-size: 14px;
+}
 .buyGameCart a{
     color: black;
+    font-size: 12px;
 }
 .buyGameCart a:hover{
     color: rgb(31, 255, 31);
@@ -70,14 +80,20 @@
 .greenSpan{   
     color: rgb(61, 176, 61);
 }
+.blockGameText {
+    width: 50%; 
+}
+.blockGameText h3{
+    font-size: 15px;
+}
 .blockGameText p{
-    font-size: 13px;
+    font-size: 12px;
 }
 .catalogTextMiniSteamIcons img{
     width: 16px;
 }
 .catalogTextMiniSteamIcons a{
-font-size: 13px;
+font-size: 12px;
 color: gray;
 } 
 .catalogTextMiniSteamIcons{
@@ -85,7 +101,7 @@ color: gray;
 }
 /*  */
 .pricePercent30 input{
-    width: 120px;
+    width: 100px;
 }
 .pricePercent30{
     display: flex;
@@ -98,7 +114,45 @@ color: gray;
 .pricePercent30 span{
     margin-left: 2px;
     margin-right: 2px;
-} 
-.genreBig span{
-    margin-left: 150px;
+}  
+/* blockGameImage */
+.blockGameImage{
+    position: relative;
+    width: 250px;
+}
+.overlayText{
+    position: absolute;
+    top: -5%;
+    left: -3%;
+    background-color: red;
+    color: white;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 13px;
+}
+.blockGameImage img{
+    width: 100%;
+    display: block;
+}
+/* genreBig */
+.genreBig{
+    display: flex;
+    width: 100%;
+    font-size: 13px;
+}
+.checkboxInputGenre{
+    width: 70%;
+}
+.checkboxQuantityGenre{
+    width: 30%;
+}
+.genreBig label{
+    font-weight: 300;
+}
+.checkboxQuantityGenre span{
+    background-color: rgb(81, 209, 209);
+    color: white;
+    padding-right: 5px ;
+    padding-left: 5px ; 
+    border-radius: 15px;
 }

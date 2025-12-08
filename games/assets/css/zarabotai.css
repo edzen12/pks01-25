@@ -179,109 +179,88 @@ body{
     margin-top: 10px;
 }
 
-/* ------------ АДАПТАЦИЯ ПОД МОБИЛЬНЫЕ ------------ */
+/* мобильная адаптация */
 @media (max-width: 768px) {
     .allPageBorder{
         padding: 0 10px 30px;
-    }
-
+    } 
     .header{
         flex-direction: column;
         align-items: stretch;
         padding: 10px;
-    }
-
+    } 
     .header ul{
         justify-content: space-between;
         margin-bottom: 8px;
-    }
-
+    } 
     .header li{
         margin-right: 10px;
         font-size: 13px;
         white-space: nowrap;
-    }
-
+    } 
     .buttonsMenu{
         width: 100%;
         justify-content: flex-start;
         gap: 10px;
-    }
-
+    } 
     .buttonsMenu .btn{
         flex: 0 0 auto;
         font-size: 12px;
         padding: 6px 8px;
-    }
-
+    } 
     .textZar{
         margin-top: 30px;
-    }
-
+    } 
     .textZar p{
         font-size: 14px;
-    }
-
+    } 
     .textZar span{
         font-size: 24px;
-    }
-
+    } 
     .thirdCardZarabotaI{
         flex-direction: column;
         align-items: center;
         margin-top: 30px;
-    }
-
+    } 
     .cardZarabotai{
         width: 100%;
         max-width: 340px;
-    }
-
+    } 
     .cardZarabotai p{
         width: 100%;
         font-size: 12px;
-    }
-
+    } 
     .buttoncardZarabotai{
         margin-top: 30px;
         margin-bottom: 30px;
-    }
-
+    } 
     .buttoncardZarabotai a{
         width: 100%;
         max-width: 340px;
         box-sizing: border-box;
-    }
-
+    } 
     .opytCardZarabotai{
         flex-direction: column;
-    }
-
+    } 
     .cardOpyt ul{
         flex-direction: row;
-    }
-
+    } 
     .corana p{
         font-size: 12px;
     }
-}
-
-/* очень маленькие экраны */
+} 
 @media (max-width: 480px){
     .header ul{
         flex-direction: column;
         align-items: flex-start;
         gap: 5px;
-    }
-
+    } 
     .header li{
         margin-right: 0;
-    }
-
+    } 
     .buttonsMenu{
         justify-content: center;
-    }
-
+    } 
     .textZar p{
         font-size: 13px;
     }
